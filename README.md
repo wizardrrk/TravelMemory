@@ -59,6 +59,7 @@ A full-stack **MERN application** deployed on **AWS EC2** with **MongoDB Atlas**
     ```
     REACT_APP_BACKEND_URL=http://127.0.0.1:3001
     ```
+    updated it to use the backend url https://api.wizardrrk.store
   - **Backend**:
     ```
     PORT=3001
