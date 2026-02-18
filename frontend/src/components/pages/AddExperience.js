@@ -21,6 +21,13 @@ export default function AddExperience() {
         setLoading(true);
         console.log(formdata)
         axios.post(`${baseUrl}/trip`, formdata)
+                .then(res => {
+                   console.log("Success:", res.data);
+                   alert("Experience Added Successfully!")})
+                .catch(err => {
+                  console.error("Error:", err);
+                  alert("Error adding experience. Please try again.");})
+                .finally(() => setLoading(false));
         setLoading(false)
     }
 
