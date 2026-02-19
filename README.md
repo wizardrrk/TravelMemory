@@ -30,7 +30,7 @@ A full-stack **MERN application** deployed on **AWS EC2** with **MongoDB Atlas**
 - **Collection**: `travelmemorycollection`  
 - **Connection String**:  
   ```
-  mongodb+srv://mongo2026:Mongo2026@herovired1.9au5tmp.mongodb.net/travelmemorydb
+  mongodb+srv://<dbuser>:<dbpass>@herovired1.9au5tmp.mongodb.net/travelmemorydb
   ```
 - **Network Access**:  
   ```
@@ -63,7 +63,7 @@ A full-stack **MERN application** deployed on **AWS EC2** with **MongoDB Atlas**
   - **Backend**:
     ```
     PORT=3001
-    MONGO_URI=mongodb+srv://mongo2026:Mongo2026@herovired1.9au5tmp.mongodb.net/travelmemorydb
+    MONGO_URI=mongodb+srv://<dbuser>:<dbpass>@herovired1.9au5tmp.mongodb.net/travelmemorydb
     ```
 - Push updates to GitHub with default branch set to `master`.
 
