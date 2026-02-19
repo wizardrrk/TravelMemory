@@ -30,7 +30,7 @@ A full-stack **MERN application** deployed on **AWS EC2** with **MongoDB Atlas**
 - **Collection**: `travelmemorycollection`  
 - **Connection String**:  
   ```
-  mongodb+srv://mongo2026:Mongo2026@herovired1.9au5tmp.mongodb.net/travelmemorydb
+  mongodb+srv://<dbuser>:<dbpass>@herovired1.9au5tmp.mongodb.net/travelmemorydb
   ```
 - **Network Access**:  
   ```
